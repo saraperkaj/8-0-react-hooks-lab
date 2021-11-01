@@ -1,0 +1,23 @@
+.new-client div {
+  display: flex;
+  width: 100%;
+  max-height: 40vh;
+  justify-content: space-evenly;
+}
+.new-client h4 {
+  display: block;
+}
+.new-client form,
+.new-client article {
+  min-width: 45%;
+  margin-bottom: 2em;
+}
+.new-client input,
+.new-client label {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+input {
+  padding: 0.2em;
+}

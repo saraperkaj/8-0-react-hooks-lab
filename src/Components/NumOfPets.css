@@ -1,0 +1,18 @@
+.num-of-pets {
+  display: flex;
+  justify-content: center;
+}
+.num-of-pets h4,
+h5,
+div .num-of-pets div {
+  width: 100%;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.num-of-pets div {
+  display: flex;
+  justify-content: space-around;
+  max-width: 40%;
+  margin-bottom: 1em;
+}
