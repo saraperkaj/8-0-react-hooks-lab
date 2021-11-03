@@ -40,12 +40,12 @@ describe("index", () => {
     cy.get("#lastName").type("Brown");
     cy.get("#phone").type("1-555-555-5555");
     // gets wrong input field?????
-    // cy.get("#email").type("charlie.brown@peanuts.com");
+    cy.get("#email").type("charlie.brown@peanuts.com");
     const article = cy.get(".new-client article");
     article.should("contain.text", "Charlie");
     article.should("contain.text", "Brown");
     article.should("contain.text", "1-555-555-5555");
-    // article.should("contain.text", "charlie.brown@peanuts.com");
+    article.should("contain.text", "charlie.brown@peanuts.com");
   });
 
   it("should allow a new client to add and remove types of animals", () => {
