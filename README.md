@@ -7,6 +7,8 @@ In this lab, you will build a simple page that will show a simple sign up page t
 - Change state using hooks
 - Use `useEffect` as the lifecycle method for updating a component after an API call
 
+Each of the sections below (in the gold border) is its own component. Focus on completing the distinct components. There is not an overall "form" or "feature" to complete.
+
 ![Example of a completed application.](./assets/example2.png)
 
 ---
@@ -63,12 +65,12 @@ Keep the following in mind for this lab as you run the tests.
   - On click of `-` decrease the number of pets by 1, Do not allow for a negative amount of pets
 - `NewClient` - [Work with strings, work with multiple stateful properties]
   - Convert to functional component
-  - Make a form that contains
-  - `firstName`, type text
-  - `lastName`, type text
-  - `phone`, type tel
-  - `email`, type email
-  - Render the values in an `article` alongside the form
+  - Make sure your form contains:
+    - `firstName`, type `"text"`
+    - `lastName`, type `"text"`
+    - `phone`, type `"tel"`
+    - `email`, type `"email"`
+  - Render the values in an `article` alongside the form as you type
 - `AnimalTypes` - [Work with arrays]
   - Convert to functional component
   - Be able to render a list of animals (already provided)
@@ -77,16 +79,20 @@ Keep the following in mind for this lab as you run the tests.
   - Make sure that `cat ` and `cat` are all entered as `cat`
   - Be able to remove an animal with an on click of a button
 - `PetList` - [Work with an external API, lifecycle method, pass props down to `Pet` component]
-- Be able to make an API call
-- Be able to render a list of the animals including their
-  - `name`
-  - `breed`
-  - `kind`
+  - Make an API call to receive all pets (describe below)
+  - Be able to render a list of the animals including their
+    - `name`
+    - `breed`
+    - `kind`
 
 ### Using the API
 
-Your instructor will give you the URL for the API you will be accessing. There will be one endpoint
+Your instructor will either give you the URL for the API you will be accessing or tell you to run the API locally. There will be only one endpoint
 you will need to hit.
+
+If you need, you can access the API at the following repository. Follow the instructions there to get it installed.
+
+- [Resource: Veterinarian API](https://github.com/joinpursuit/resource-veterinarian-api)
 
 #### `/api/pets`
 

@@ -39,7 +39,6 @@ describe("index", () => {
     cy.get("#firstName").type("Charlie");
     cy.get("#lastName").type("Brown");
     cy.get("#phone").type("1-555-555-5555");
-    // gets wrong input field?????
     cy.get("#email").type("charlie.brown@peanuts.com");
     const article = cy.get(".new-client article");
     article.should("contain.text", "Charlie");
@@ -68,9 +67,7 @@ describe("index", () => {
       .then(() => {
         cy.get("#animal-type").type("chinchilla");
         cy.get(".animal-types form").submit();
-        cy.get(".animal-types ol>li")
-          .first()
-          .contains(/chinchilla/);
+        cy.get(".animal-types ol").contains(/chinchilla/);
       });
   });
 
