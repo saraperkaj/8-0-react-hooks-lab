@@ -4,7 +4,7 @@ import FirstPet from "./Components/FirstPet";
 import Footer from "./Components/Footer";
 import NavBar from "./Components/NavBar";
 import NewClient from "./Components/NewClient";
-import NumOfPets from "./Components/NumOfPets";
+import NumberOfPets from "./Components/NumberOfPets";
 import PetList from "./Components/PetList";
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
       <NavBar />
       <main>
         <FirstPet />
-        <NumOfPets />
+        <NumberOfPets />
         <NewClient />
         <AnimalTypes />
         <PetList />

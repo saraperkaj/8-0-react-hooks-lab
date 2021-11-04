@@ -1,5 +1,5 @@
 import React from "react";
-import "./NumOfPets.css";
+import "./NumberOfPets.css";
 
 class NumberOfPets extends React.Component {
   render() {
