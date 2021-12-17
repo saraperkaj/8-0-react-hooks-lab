@@ -1,3 +1,7 @@
+/**
+ * NavBar - convert to functional component
+ */
+
 import React from "react";
 import "./NavBar.css";
 

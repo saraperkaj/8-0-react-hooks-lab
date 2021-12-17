@@ -1,6 +1,17 @@
 import React from "react";
 import "./NewClient.css";
 
+/**
+ * NewClient - [Work with strings, work with multiple stateful properties]
+Convert to functional component
+Make sure your form contains:
+firstName, type "text"
+lastName, type "text"
+phone, type "tel"
+email, type "email"
+Render the values in an article alongside the form as you type
+ */
+
 class NewClient extends React.Component {
   render() {
     return (
